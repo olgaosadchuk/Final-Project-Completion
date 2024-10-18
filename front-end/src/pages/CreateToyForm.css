@@ -1,0 +1,46 @@
+.form-container {
+    max-width: 800px; /* Center the form and limit width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the form */
+    border: 1px solid #ccc; /* Light border for the form */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .create-toy-form {
+    display: flex;
+    flex-direction: column; /* Arrange fields in a column */
+  }
+  
+  .form-group {
+    margin-bottom: 40px; /* Space between fields */
+  }
+  
+  label {
+    margin-bottom: 8px; /* Space between label and input */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 700px; /* Set width for all inputs */
+    padding: 10px; /* Add padding for better spacing */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size for inputs */
+  }
+  
+  button {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size for the button */
+    background-color: #4caf50; /* Green background for the button */
+    color: white; /* White text for the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
